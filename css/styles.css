@@ -1,5 +1,5 @@
 body {
-font-family:"Roboto", "Raleway";
+font-family:"Roboto", "Raleway", sans-serif;
 color: #434445;
 background-color: #ffffff;
 }
@@ -12,3 +12,94 @@ ol {
 a {
 text-decoration: none;
 }
+/* header */
+.link-logo {
+    color: #2E2F42;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.17;
+   }
+
+.accent{
+    color: #4D5AE5;
+}
+.header-link{
+    color: #2E2F42;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+.header-link:hover{
+    color: #404BBF;
+}
+.header-link:active{
+    color: #404BBF;
+    text-decoration: underline;
+}
+
+.header-link-address{
+    color:#434445;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.header-link-address:hover{
+    color: #404BBF;
+}
+
+/* maim section */
+.hero-title{
+    color: #FFFFFF;
+    font-size: 56px;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 1.07;
+    text-align: center;
+}
+
+.button{
+    background: #4D5AE5;
+    border: none;
+    border-radius: 4px;
+    width: 169px;
+    height: 56px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #FFFFFF
+}
+.button:hover{
+    background-color: #404BBF;
+}
+
+/* section */
+.section-title{
+    color: #2E2F42;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    text-align: center;
+}
+
+.section-item-title{
+        color: #2E2F42;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
+        text-align: center;
+}
+
+.section-item-description{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        text-align: center;
+}
+.footer-description{
+    color: #F4F4FD;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    }
